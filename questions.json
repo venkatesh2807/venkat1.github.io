@@ -13,11 +13,6 @@
         "question": "```c\n#include <stdio.h>\n\nvoid rotateArray(int arr[], int n, int k) {\n    k = k % n;\n    for (int i = 0; i < n; i++) {\n        printf(\"%d \", arr[(i - k + n) % n]);\n    }\n}\n\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int k = 2;\n    rotateArray(arr, n, k);\n    return 0;\n}\n```",
         "options": ["4 5 1 2 3","3 4 5 1 2","2 3 4 5 1","1 2 3 4 5"],
         "correctAnswer": "2 3 4 5 1"
-    },
-    {
-        "question": "My Stakeholder:",
-        "option":["Faculty","Student","Staff","Housekeeping"],
-        "correctAnswer":"Student"
     }
 ]
 
