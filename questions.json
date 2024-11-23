@@ -1,18 +1,103 @@
 [
     {
-        "question": "```c\n#include <stdio.h>\n\nint maxSubarraySum(int arr[], int n) {\n    int max_so_far = arr[0];\n    int max_ending_here = arr[0];\n    for (int i = 1; i < n; i++) {\n        max_ending_here = (arr[i] > max_ending_here + arr[i]) ? arr[i] : max_ending_here + arr[i];\n        max_so_far = (max_so_far > max_ending_here) ? max_so_far : max_ending_here;\n    }\n    return max_so_far;\n}\n\nint main() {\n    int arr[] = {-2, -3, 4, -1, -2, 1, 5, -3};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int max_sum = maxSubarraySum(arr, n);\n    printf(\"Maximum subarray sum: %d\", max_sum);\n    return 0;\n}\n```",
-        "options":["7","10","9","5"],
-        "correctAnswer": "10"
+      "question": "What is the key concept of the divide and conquer strategy?",
+      "options": [
+        "Iteratively solve the problem",
+        "Divide the problem into smaller subproblems, solve them recursively, and combine results",
+        "Directly solve the problem without dividing",
+        "Use a brute force approach to solve the problem"
+      ],
+      "answer": "Divide the problem into smaller subproblems, solve them recursively, and combine results"
     },
     {
-        "question": "```cpp\n#include <iostream>\nusing namespace std;\n\nint findMajorityElement(int arr[], int n) {\n    int candidate = arr[0];\n    int count = 1;\n    for (int i = 1; i < n; i++) {\n        if (arr[i] == candidate) {\n            count++;\n        } else {\n            count--;\n            if (count == 0) {\n                candidate = arr[i];\n                count = 1;\n            }\n        }\n    }\n    count = 0;\n    for (int i = 0; i < n; i++) {\n        if (arr[i] == candidate) {\n            count++;\n        }\n    }\n    if (count > n / 2) {\n        return candidate;\n    } else {\n        return -1; // No majority element\n    }\n}\n\nint main() {\n    int arr[] = {3, 3, 4, 2, 4, 4, 2, 4, 4};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int majorityElement = findMajorityElement(arr, n);\n    if (majorityElement != -1) {\n        cout << \"Majority element: \" << majorityElement;\n    } else {\n        cout << \"No majority element found\";\n    }\n    return 0;\n}\n```",
-        "options":["Majority element: 2","Majority element: 3","No majority element found","Majority element: 4"],
-        "correctAnswer": "Majority element: 4"
+      "question": "In the divide and conquer approach for finding the maximum and minimum, how many comparisons are required for a single pair of elements?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "2"
     },
     {
-        "question": "```c\n#include <stdio.h>\n\nvoid rotateArray(int arr[], int n, int k) {\n    k = k % n;\n    for (int i = 0; i < n; i++) {\n        printf(\"%d \", arr[(i - k + n) % n]);\n    }\n}\n\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int k = 2;\n    rotateArray(arr, n, k);\n    return 0;\n}\n```",
-        "options": ["4 5 1 2 3","3 4 5 1 2","2 3 4 5 1","1 2 3 4 5"],
-        "correctAnswer": "2 3 4 5 1"
+      "question": "What is the time complexity of merge sort in the worst case?",
+      "options": [
+        "O(n^2)",
+        "O(n log n)",
+        "O(log n)",
+        "O(n)"
+      ],
+      "answer": "O(n log n)"
+    },
+    {
+      "question": "What is the base case when finding max and min using divide and conquer?",
+      "options": [
+        "When the array size is greater than 2",
+        "When the array size is exactly 2",
+        "When the array size is 1",
+        "When the array size is zero"
+      ],
+      "answer": "When the array size is 1"
+    },
+    {
+      "question": "How does merge sort combine the sorted subarrays?",
+      "options": [
+        "By recursively sorting both arrays",
+        "By appending elements from both arrays into a new array",
+        "By comparing the smallest elements of each subarray and adding the smallest to the sorted result",
+        "By summing the elements of both subarrays"
+      ],
+      "answer": "By comparing the smallest elements of each subarray and adding the smallest to the sorted result"
+    },
+    {
+      "question": "What is the number of comparisons needed in merge sort for an array of size n?",
+      "options": [
+        "O(n)",
+        "O(n^2)",
+        "O(n log n)",
+        "O(log n)"
+      ],
+      "answer": "O(n log n)"
+    },
+    {
+      "question": "What is the primary advantage of the divide and conquer approach for finding max and min?",
+      "options": [
+        "It is easier to implement",
+        "It requires less memory",
+        "It reduces the number of comparisons",
+        "It has a lower time complexity"
+      ],
+      "answer": "It reduces the number of comparisons"
+    },
+    {
+      "question": "Which of the following problems cannot be solved using divide and conquer?",
+      "options": [
+        "Merge Sort",
+        "Finding Maximum and Minimum",
+        "Linear Search",
+        "Binary Search"
+      ],
+      "answer": "Linear Search"
+    },
+    {
+      "question": "Which is the auxiliary space complexity of merge sort?",
+      "options": [
+        "O(1)",
+        "O(log n)",
+        "O(n)",
+        "O(n^2)"
+      ],
+      "answer": "O(n)"
+    },
+    {
+      "question": "How many levels of recursion occur in merge sort for an array of size n?",
+      "options": [
+        "log n",
+        "n log n",
+        "n",
+        "n^2"
+      ],
+      "answer": "log n"
     }
-]
+  ]
 
