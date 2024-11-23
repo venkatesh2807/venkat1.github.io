@@ -58,7 +58,7 @@ function startQuiz() {
         if (currentQuestionIndex < questions.length) {
             loadQuestion();
         } else {
-            displayResult();
+           // displayResult();
         }
     });
 }
