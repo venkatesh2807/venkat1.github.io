@@ -1,103 +1,102 @@
 [
-    {
-      "question": "What is the key concept of the divide and conquer strategy?",
-      "options": [
-        "Iteratively solve the problem",
-        "Divide the problem into smaller subproblems, solve them recursively, and combine results",
-        "Directly solve the problem without dividing",
-        "Use a brute force approach to solve the problem"
-      ],
-      "answer": "Divide the problem into smaller subproblems, solve them recursively, and combine results"
+  {
+    "question": "Which of the following best describes an algorithm?",
+    "options": {
+      "A": "A complete computer program",
+      "B": "A step-by-step procedure to solve a problem",
+      "C": "A graphical representation of code",
+      "D": "A high-level programming language"
     },
-    {
-      "question": "In the divide and conquer approach for finding the maximum and minimum, how many comparisons are required for a single pair of elements?",
-      "options": [
-        "1",
-        "2",
-        "3",
-        "4"
-      ],
-      "answer": "2"
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of a good algorithm?",
+    "options": {
+      "A": "Unambiguous steps",
+      "B": "Infinite loop for complex tasks",
+      "C": "Finiteness",
+      "D": "Input and Output defined"
     },
-    {
-      "question": "What is the time complexity of merge sort in the worst case?",
-      "options": [
-        "O(n^2)",
-        "O(n log n)",
-        "O(log n)",
-        "O(n)"
-      ],
-      "answer": "O(n log n)"
+    "answer": "B"
+  },
+  {
+    "question": "What is the primary purpose of pseudocode?",
+    "options": {
+      "A": "To execute programs",
+      "B": "To compile code",
+      "C": "To represent an algorithm in a language-independent way",
+      "D": "To design a database"
     },
-    {
-      "question": "What is the base case when finding max and min using divide and conquer?",
-      "options": [
-        "When the array size is greater than 2",
-        "When the array size is exactly 2",
-        "When the array size is 1",
-        "When the array size is zero"
-      ],
-      "answer": "When the array size is 1"
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is NOT a common problem-solving strategy?",
+    "options": {
+      "A": "Divide and Conquer",
+      "B": "Brute Force",
+      "C": "Infinite Looping",
+      "D": "Greedy Approach"
     },
-    {
-      "question": "How does merge sort combine the sorted subarrays?",
-      "options": [
-        "By recursively sorting both arrays",
-        "By appending elements from both arrays into a new array",
-        "By comparing the smallest elements of each subarray and adding the smallest to the sorted result",
-        "By summing the elements of both subarrays"
-      ],
-      "answer": "By comparing the smallest elements of each subarray and adding the smallest to the sorted result"
+    "answer": "C"
+  },
+  {
+    "question": "What is the correct order of the stages in problem solving using computers?",
+    "options": {
+      "A": "Algorithm → Problem → Program → Solution",
+      "B": "Program → Algorithm → Problem → Solution",
+      "C": "Problem → Algorithm → Program → Solution",
+      "D": "Solution → Program → Algorithm → Problem"
     },
-    {
-      "question": "What is the number of comparisons needed in merge sort for an array of size n?",
-      "options": [
-        "O(n)",
-        "O(n^2)",
-        "O(n log n)",
-        "O(log n)"
-      ],
-      "answer": "O(n log n)"
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following statements about a program is true?",
+    "options": {
+      "A": "It is a general idea to solve a problem",
+      "B": "It is an unstructured algorithm",
+      "C": "It is a set of instructions written in a programming language",
+      "D": "It is a method to compile pseudocode"
     },
-    {
-      "question": "What is the primary advantage of the divide and conquer approach for finding max and min?",
-      "options": [
-        "It is easier to implement",
-        "It requires less memory",
-        "It reduces the number of comparisons",
-        "It has a lower time complexity"
-      ],
-      "answer": "It reduces the number of comparisons"
+    "answer": "C"
+  },
+  {
+    "question": "In pseudocode, which keyword is typically used to represent a decision structure?",
+    "options": {
+      "A": "REPEAT",
+      "B": "PRINT",
+      "C": "IF",
+      "D": "STEP"
     },
-    {
-      "question": "Which of the following problems cannot be solved using divide and conquer?",
-      "options": [
-        "Merge Sort",
-        "Finding Maximum and Minimum",
-        "Linear Search",
-        "Binary Search"
-      ],
-      "answer": "Linear Search"
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is an example of a control structure used in algorithms?",
+    "options": {
+      "A": "Variable Declaration",
+      "B": "Input/Output Statements",
+      "C": "IF-THEN-ELSE",
+      "D": "Comments"
     },
-    {
-      "question": "Which is the auxiliary space complexity of merge sort?",
-      "options": [
-        "O(1)",
-        "O(log n)",
-        "O(n)",
-        "O(n^2)"
-      ],
-      "answer": "O(n)"
+    "answer": "C"
+  },
+  {
+    "question": "What is meant by \"dry run\" in programming or algorithm development?",
+    "options": {
+      "A": "Running a program with full inputs",
+      "B": "Testing the code online",
+      "C": "Manually tracing the algorithm step-by-step without execution",
+      "D": "Skipping the testing phase"
     },
-    {
-      "question": "How many levels of recursion occur in merge sort for an array of size n?",
-      "options": [
-        "log n",
-        "n log n",
-        "n",
-        "n^2"
-      ],
-      "answer": "log n"
-    }
-  ]
-
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is a valid reason to use pseudocode before writing the actual code?",
+    "options": {
+      "A": "To check syntax errors",
+      "B": "To design and communicate the logic clearly",
+      "C": "To reduce the number of lines in the final code",
+      "D": "To automatically generate GUI"
+    },
+    "answer": "B"
+  }
+]
