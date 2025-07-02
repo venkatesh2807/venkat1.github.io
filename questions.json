@@ -7,7 +7,7 @@
             "A graphical representation of code",
                "A high-level programming language"
     ],
-    "correctAnswer": "B"
+    "correctAnswer": "A step-by-step procedure to solve a problem"
   },
   {
     "question": "Which of the following is NOT a characteristic of a good algorithm?",
@@ -17,7 +17,7 @@
             "Finiteness",
                "Input and Output defined"
     ],
-    "answer": "B"
+    "correctAnswer":  "Infinite loop for complex tasks"
   },
   {
     "question": "What is the primary purpose of pseudocode?",
@@ -27,7 +27,7 @@
             "To represent an algorithm in a language-independent way",
                "To design a database"
     ],
-    "answer": "C"
+    "correctAnswer": "To represent an algorithm in a language-independent way"
   },
   {
     "question": "Which of the following is NOT a common problem-solving strategy?",
@@ -37,7 +37,7 @@
             "Infinite Looping",
                "Greedy Approach"
     ],
-    "answer": "C"
+    "correctAnswer":  "Infinite Looping"
   },
   {
     "question": "What is the correct order of the stages in problem solving using computers?",
@@ -47,7 +47,7 @@
             "Problem → Algorithm → Program → Solution",
                "Solution → Program → Algorithm → Problem"
     ],
-    "answer": "C"
+    "correctAnswer":  "Problem → Algorithm → Program → Solution"
   },
   {
     "question": "Which of the following statements about a program is true?",
@@ -57,17 +57,17 @@
             "It is a set of instructions written in a programming language",
                "It is a method to compile pseudocode"
     ],
-    "answer": "C"
+    "correctAnswer": "It is a set of instructions written in a programming language"
   },
   {
     "question": "In pseudocode, which keyword is typically used to represent a decision structure?",
     "options": [
         "REPEAT",
             "PRINT",
-            "IF",
+           "IF",
                "STEP"
     ],
-    "answer": "C"
+    "correctAnswer": "IF"
   },
   {
     "question": "Which of the following is an example of a control structure used in algorithms?",
@@ -77,7 +77,8 @@
             "IF-THEN-ELSE",
                "Comments"
     ],
-    "answer": "C"
+    "correctAnswer": "IF-THEN-ELSE"           
+
   },
   {
     "question": "What is meant by \"dry run\" in programming or algorithm development?",
@@ -87,7 +88,7 @@
             "Manually tracing the algorithm step-by-step without execution",
                "Skipping the testing phase"
     ],
-    "answer": "C"
+    "correctAnswer": "Manually tracing the algorithm step-by-step without execution"
   },
   {
     "question": "Which of the following is a valid reason to use pseudocode before writing the actual code?",
@@ -97,6 +98,6 @@
      "To reduce the number of lines in the final code",
      "To automatically generate GUI"
     ],
-    "answer": "B"
+    "correctAnswer":  "To design and communicate the logic clearly"
   }
 ]
