@@ -2,100 +2,100 @@
   {
     "question": "Which of the following best describes an algorithm?",
     "options": [
-      "A": "A complete computer program",
-      "B": "A step-by-step procedure to solve a problem",
-      "C": "A graphical representation of code",
-      "D": "A high-level programming language"
+        "A complete computer program",
+            "A step-by-step procedure to solve a problem",
+            "A graphical representation of code",
+               "A high-level programming language"
     ],
     "answer": "B"
   },
   {
     "question": "Which of the following is NOT a characteristic of a good algorithm?",
     "options": [
-      "A": "Unambiguous steps",
-      "B": "Infinite loop for complex tasks",
-      "C": "Finiteness",
-      "D": "Input and Output defined"
+        "Unambiguous steps",
+            "Infinite loop for complex tasks",
+            "Finiteness",
+               "Input and Output defined"
     ],
     "answer": "B"
   },
   {
     "question": "What is the primary purpose of pseudocode?",
     "options": [
-      "A": "To execute programs",
-      "B": "To compile code",
-      "C": "To represent an algorithm in a language-independent way",
-      "D": "To design a database"
+        "To execute programs",
+            "To compile code",
+            "To represent an algorithm in a language-independent way",
+               "To design a database"
     ],
     "answer": "C"
   },
   {
     "question": "Which of the following is NOT a common problem-solving strategy?",
     "options": [
-      "A": "Divide and Conquer",
-      "B": "Brute Force",
-      "C": "Infinite Looping",
-      "D": "Greedy Approach"
+        "Divide and Conquer",
+            "Brute Force",
+            "Infinite Looping",
+               "Greedy Approach"
     ],
     "answer": "C"
   },
   {
     "question": "What is the correct order of the stages in problem solving using computers?",
     "options": [
-      "A": "Algorithm → Problem → Program → Solution",
-      "B": "Program → Algorithm → Problem → Solution",
-      "C": "Problem → Algorithm → Program → Solution",
-      "D": "Solution → Program → Algorithm → Problem"
+        "Algorithm → Problem → Program → Solution",
+            "Program → Algorithm → Problem → Solution",
+            "Problem → Algorithm → Program → Solution",
+               "Solution → Program → Algorithm → Problem"
     ],
     "answer": "C"
   },
   {
     "question": "Which of the following statements about a program is true?",
     "options": [
-      "A": "It is a general idea to solve a problem",
-      "B": "It is an unstructured algorithm",
-      "C": "It is a set of instructions written in a programming language",
-      "D": "It is a method to compile pseudocode"
+        "It is a general idea to solve a problem",
+            "It is an unstructured algorithm",
+            "It is a set of instructions written in a programming language",
+               "It is a method to compile pseudocode"
     ],
     "answer": "C"
   },
   {
     "question": "In pseudocode, which keyword is typically used to represent a decision structure?",
     "options": [
-      "A": "REPEAT",
-      "B": "PRINT",
-      "C": "IF",
-      "D": "STEP"
+        "REPEAT",
+            "PRINT",
+            "IF",
+               "STEP"
     ],
     "answer": "C"
   },
   {
     "question": "Which of the following is an example of a control structure used in algorithms?",
     "options": [
-      "A": "Variable Declaration",
-      "B": "Input/Output Statements",
-      "C": "IF-THEN-ELSE",
-      "D": "Comments"
+        "Variable Declaration",
+            "Input/Output Statements",
+            "IF-THEN-ELSE",
+               "Comments"
     ],
     "answer": "C"
   },
   {
     "question": "What is meant by \"dry run\" in programming or algorithm development?",
     "options": [
-      "A": "Running a program with full inputs",
-      "B": "Testing the code online",
-      "C": "Manually tracing the algorithm step-by-step without execution",
-      "D": "Skipping the testing phase"
+        "Running a program with full inputs",
+            "Testing the code online",
+            "Manually tracing the algorithm step-by-step without execution",
+               "Skipping the testing phase"
     ],
     "answer": "C"
   },
   {
     "question": "Which of the following is a valid reason to use pseudocode before writing the actual code?",
     "options": [
-      "A": "To check syntax errors",
-      "B": "To design and communicate the logic clearly",
-      "C": "To reduce the number of lines in the final code",
-      "D": "To automatically generate GUI"
+      "To check syntax errors",
+  "To design and communicate the logic clearly",
+     "To reduce the number of lines in the final code",
+     "To automatically generate GUI"
     ],
     "answer": "B"
   }
