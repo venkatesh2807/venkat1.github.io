@@ -1,102 +1,102 @@
 [
   {
-    "question": "In the context of algorithms, what does 'efficiency' refer to?",
+    "question": "What does time complexity of an algorithm measure?",
     "options": [
-      "The length of the pseudocode",
-      "The amount of time and resources the algorithm uses",
-      "The number of comments in the program",
-      "The complexity of the programming language used"
+      "The total time taken to execute the code",
+      "The amount of memory used by the algorithm",
+      "The number of basic operations performed by the algorithm as a function of input size",
+      "The number of lines of code"
     ],
-    "correctAnswer": "The amount of time and resources the algorithm uses"
+    "correctAnswer": "The number of basic operations performed by the algorithm as a function of input size"
   },
   {
-    "question": "What does the random.sample(range(1, length+1), length) function do?",
-    "options": [
-      "Creates a list with repeated numbers",
-      "Produces a sorted list of numbers",
-      "Picks length unique numbers randomly from a specified range",
-      "Picks numbers with replacement from 1 to length"
-    ],
-    "correctAnswer": "Picks length unique numbers randomly from a specified range"
-  },
-  {
-    "question": "Which of the following best describes an algorithm with amortized time complexity?",
-    "options": [
-      "It always runs in constant time per operation",
-      "Its average case is the same as the best case",
-      "Some operations may be expensive, but the average cost per operation over a sequence is low",
-      "It guarantees the worst-case time for every individual operation"
-    ],
-    "correctAnswer": "Some operations may be expensive, but the average cost per operation over a sequence is low"
-  },
-  {
-    "question": "Why is time measured before and after calling a function in this program?",
-    "options": [
-      "To count number of function calls",
-      "To record how long the function takes to execute",
-      "To check memory usage",
-      "To delay function execution"
-    ],
-    "correctAnswer": "To record how long the function takes to execute"
-  },
-  {
-    "question": "Which approach tries all possible solutions until the correct one is found?",
-    "options": [
-      "Divide and Conquer",
-      "Greedy Method",
-      "Brute Force",
-      "Dynamic Programming"
-    ],
-    "correctAnswer": "Brute Force"
-  },
-  {
-    "question": "What happens if random.choice() is used on an empty list?",
-    "options": [
-      "It returns None",
-      "It gives a random digit",
-      "It raises an IndexError",
-      "It outputs zero"
-    ],
-    "correctAnswer": "It raises an IndexError"
-  },
-  {
-    "question": "Which sorting algorithm has the best average-case time complexity among the following?",
-    "options": [
-      "Bubble Sort",
-      "Insertion Sort",
-      "Merge Sort",
-      "Selection Sort"
-    ],
-    "correctAnswer": "Merge Sort"
-  },
-  {
-    "question": "What kind of tasks are best solved using a 'greedy' algorithm approach?",
-    "options": [
-      "Tasks needing guaranteed optimal answers",
-      "Tasks where local choices lead to global solutions",
-      "Tasks requiring nested loops only",
-      "Tasks without any decisions"
-    ],
-    "correctAnswer": "Tasks where local choices lead to global solutions"
-  },
-  {
-    "question": "What does the term 'trace table' refer to in algorithm analysis?",
-    "options": [
-      "A way to sort variables",
-      "A method to record variable values at each step",
-      "A structure for repeating values",
-      "A type of data structure"
-    ],
-    "correctAnswer": "A method to record variable values at each step"
-  },
-  {
-    "question": "What is the time complexity of searching an item using in in a list?",
+    "question": "Which of the following Big-O notations represents constant time complexity?",
     "options": [
       "O(1)",
-      "O(log n)",
       "O(n)",
-      "O(n log n)"
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "question": "What is the worst-case time complexity of linear search?",
+    "options": [
+      "O(n)",
+      "O(log n)",
+      "O(1)",
+      "O(n^2)"
     ],
     "correctAnswer": "O(n)"
+  },
+  {
+    "question": "Which of the following is NOT a valid asymptotic notation?",
+    "options": [
+      "O(n!)",
+      "Θ(n)",
+      "Ω(n^2)",
+      "Ψ(n)"
+    ],
+    "correctAnswer": "Ψ(n)"
+  },
+  {
+    "question": "Which algorithm typically has O(log n) time complexity?",
+    "options": [
+      "Binary Search",
+      "Linear Search",
+      "Bubble Sort",
+      "Selection Sort"
+    ],
+    "correctAnswer": "Binary Search"
+  },
+  {
+    "question": "What is the space complexity of an in-place sorting algorithm like bubble sort?",
+    "options": [
+      "O(1)",
+      "O(n)",
+      "O(log n)",
+      "O(n^2)"
+    ],
+    "correctAnswer": "O(1)"
+  },
+  {
+    "question": "Which notation describes the best case complexity?",
+    "options": [
+      "Ω (Omega)",
+      "Θ (Theta)",
+      "O (Big O)",
+      "λ (Lambda)"
+    ],
+    "correctAnswer": "Ω (Omega)"
+  },
+  {
+    "question": "Merge sort has a worst-case time complexity of:",
+    "options": [
+      "O(n log n)",
+      "O(n^2)",
+      "O(n)",
+      "O(log n)"
+    ],
+    "correctAnswer": "O(n log n)"
+  },
+  {
+    "question": "If an algorithm has time complexity O(n^2), what happens to the time if the input size doubles?",
+    "options": [
+      "Time becomes four times larger",
+      "Time doubles",
+      "Time remains the same",
+      "Time becomes half"
+    ],
+    "correctAnswer": "Time becomes four times larger"
+  },
+  {
+    "question": "Which sorting algorithm has the best average-case time complexity?",
+    "options": [
+      "Merge Sort",
+      "Selection Sort",
+      "Bubble Sort",
+      "Insertion Sort"
+    ],
+    "correctAnswer": "Merge Sort"
   }
 ]
