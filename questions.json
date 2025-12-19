@@ -1,154 +1,45 @@
 [
     {
       "question": "Which statement about AWT event handling is CORRECT?",
-      "options": {
-        "A": "AWT uses inheritance-based event handling for all components",
-        "B": "Every event source directly processes its own events",
-        "C": "Event handling in AWT follows the Delegation Event Model",
-        "D": "Listeners are optional for handling events in AWT"
-      },
+      "options": [
+        "AWT uses inheritance-based event handling for all components",
+        "Every event source directly processes its own events",
+        "Event handling in AWT follows the Delegation Event Model",
+        "Listeners are optional for handling events in AWT"
+      ],
       "correctAnswer": "C"
     },
     {
       "question": "What happens if multiple listeners are registered for the same event source in AWT?",
-      "options": {
-        "A": "Only the last registered listener receives the event",
-        "B": "Events are delivered in reverse order of registration",
-        "C": "All registered listeners receive the event sequentially",
-        "D": "A runtime exception occurs"
-      },
+      "options": [
+        "Only the last registered listener receives the event",
+        "Events are delivered in reverse order of registration",
+        "All registered listeners receive the event sequentially",
+        "A runtime exception occurs"
+      ],
       "correctAnswer": "C"
     },
     {
       "question": "Which AWT component generates an ItemEvent instead of an ActionEvent?",
-      "options": {
-        "A": "Button",
-        "B": "TextField",
-        "C": "Checkbox",
-        "D": "Label"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "Which listener interface must be implemented to detect window closing without extending WindowAdapter?",
-      "options": {
-        "A": "WindowStateListener",
-        "B": "WindowListener",
-        "C": "ComponentListener",
-        "D": "ContainerListener"
-      },
-      "correctAnswer": "B"
-    },
-    {
-      "question": "Why are Adapter classes commonly used in AWT event handling?",
-      "options": {
-        "A": "They improve runtime performance",
-        "B": "They reduce memory usage",
-        "C": "They allow selective method overriding",
-        "D": "They prevent event propagation"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "Which method is invoked when a mouse button is pressed and released without movement?",
-      "options": {
-        "A": "mousePressed()",
-        "B": "mouseReleased()",
-        "C": "mouseClicked()",
-        "D": "mouseEntered()"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "In the Delegation Event Model, which object is responsible for generating events?",
-      "options": {
-        "A": "Listener object",
-        "B": "Adapter class",
-        "C": "Event object",
-        "D": "Event source"
-      },
-      "correctAnswer": "D"
-    },
-    {
-      "question": "What is the effect of calling consume() on an AWT event?",
-      "options": {
-        "A": "The event is immediately destroyed",
-        "B": "The event is ignored by the OS",
-        "C": "The event is not forwarded to other listeners",
-        "D": "The application terminates"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "Which event is fired when text inside a TextField changes due to user input?",
-      "options": {
-        "A": "ActionEvent",
-        "B": "TextEvent",
-        "C": "KeyEvent",
-        "D": "FocusEvent"
-      },
-      "correctAnswer": "B"
-    },
-    {
-      "question": "Which scenario BEST demonstrates improper event handling in AWT?",
-      "options": {
-        "A": "Using anonymous inner classes for listeners",
-        "B": "Registering listeners inside the constructor",
-        "C": "Performing long-running tasks inside actionPerformed()",
-        "D": "Using multiple listeners for the same component"
-      },
+      "options": [
+        "Button",
+        "TextField",
+        "Checkbox",
+        "Label"
+      ],
       "correctAnswer": "C"
     },
     
     {
       "question": "What will be the output when the button is clicked?\n\nFrame f = new Frame();\nButton b = new Button(\"Click\");\n\nb.addActionListener(new ActionListener() {\n    public void actionPerformed(ActionEvent e) {\n        System.out.println(\"A\");\n    }\n});\n\nb.addActionListener(new ActionListener() {\n    public void actionPerformed(ActionEvent e) {\n        System.out.println(\"B\");\n    }\n});\n\nf.add(b);\nf.setSize(200,200);\nf.setVisible(true);",
-      "options": {
-        "A": "Only A",
-        "B": "Only B",
-        "C": "A followed by B",
-        "D": "Compilation error"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "What happens when the window close button is clicked?\n\nFrame f = new Frame();\nf.addWindowListener(new WindowAdapter() {\n    public void windowClosed(WindowEvent e) {\n        System.exit(0);\n    }\n});\nf.setSize(300,300);\nf.setVisible(true);",
-      "options": {
-        "A": "Window closes and program terminates",
-        "B": "Window closes but program continues",
-        "C": "Nothing happens",
-        "D": "Runtime exception occurs"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "Identify the event triggered when the checkbox state is changed.\n\nCheckbox cb = new Checkbox(\"Java\");\n\ncb.addItemListener(new ItemListener() {\n    public void itemStateChanged(ItemEvent e) {\n        System.out.println(\"Changed\");\n    }\n});",
-      "options": {
-        "A": "ActionEvent",
-        "B": "TextEvent",
-        "C": "ItemEvent",
-        "D": "AdjustmentEvent"
-      },
-      "correctAnswer": "C"
-    },
-    {
-      "question": "What is the result of clicking the button multiple times?\n\nclass Test extends Frame implements ActionListener {\n    int count = 0;\n\n    public Test() {\n        Button b = new Button(\"Press\");\n        b.addActionListener(this);\n        add(b);\n        setSize(200,200);\n        setVisible(true);\n    }\n\n    public void actionPerformed(ActionEvent e) {\n        count++;\n        System.out.println(count);\n    }\n}",
-      "options": {
-        "A": "Always prints 1",
-        "B": "Prints increasing numbers starting from 1",
-        "C": "Prints 0 every time",
-        "D": "Compilation error"
-      },
-      "correctAnswer": "B"
-    },
-    {
-      "question": "What is the output when a key is typed inside the TextField?\n\nTextField tf = new TextField();\n\ntf.addKeyListener(new KeyAdapter() {\n    public void keyPressed(KeyEvent e) {\n        System.out.print(\"P\");\n    }\n    public void keyTyped(KeyEvent e) {\n        System.out.print(\"T\");\n    }\n});",
-      "options": {
-        "A": "P",
-        "B": "T",
-        "C": "PT",
-        "D": "TP"
-      },
+      "options": [
+        "Only A",
+        "Only B",
+        "A followed by B",
+       "Compilation error"
+    ],
       "correctAnswer": "C"
     }
-  ]
+    
+    ]
 
