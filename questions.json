@@ -7,7 +7,7 @@
         "Event handling in AWT follows the Delegation Event Model",
         "Listeners are optional for handling events in AWT"
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "Event handling in AWT follows the Delegation Event Model"
     },
     {
       "question": "What happens if multiple listeners are registered for the same event source in AWT?",
@@ -17,7 +17,7 @@
         "All registered listeners receive the event sequentially",
         "A runtime exception occurs"
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "All registered listeners receive the event sequentially"
     },
     {
       "question": "Which AWT component generates an ItemEvent instead of an ActionEvent?",
@@ -27,7 +27,7 @@
         "Checkbox",
         "Label"
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "Checkbox"
     },
     
     {
@@ -38,7 +38,7 @@
         "A followed by B",
        "Compilation error"
     ],
-      "correctAnswer": "C"
+      "correctAnswer": "A followed by B"
     }
     
     ]
